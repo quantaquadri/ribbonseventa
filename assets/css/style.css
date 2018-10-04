@@ -1,56 +1,4 @@
-/*
-Template Name: Highdmin - Responsive Bootstrap 4 Admin Dashboard
-Author: CoderThemes
-Email: coderthemes@gmail.com
-File: Main Css File
-*/
-/*
-1. Menu
-2. Common
-3. Helper
-4. Bootstrap Reset
-5. Waves Effect
-6. Card
-7. Buttons
-8. Ribbons
-9. Popovers and Tooltips
-10. Checkbox & Radio
-11. Alerts
-12. Modal
-13. Spinners
-14. Widgets
-15. Tabs
-16. Progress
-17. Sweet Alert
-18. Charts
-19. Email
-20. Form Elements
-21. Form Advanced
-22. Form Validation
-23. Form Pickers
-24. Form Wizard
-25. Summernote
-26. Wysiwig
-27. Form Uploads
-28. Tables
-29. Maps
-30. Calendar
-31. Tickets
-32. taskboards
-33. Projects
-34. Companies
-35. File Manager
-36. Timeline
-37. Profile
-38. Print
-39. FAQ
-40. Pricing
-41. Account-Pages
-42. Search Results
-43. Gallery
-44. Coming Soon
-45. Responsive
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 /* ===========
@@ -83,11 +31,11 @@ File: Main Css File
 }
 
 #topnav .has-submenu.active a {
-  color: #ffffff;
+  color: #000;
 }
 
 #topnav .has-submenu.active a i {
-  color: #ffffff;
+  color: #000;
 }
 
 #topnav .has-submenu.active .submenu li.active > a {
@@ -158,7 +106,7 @@ File: Main Css File
 }
 
 #topnav .navbar-custom {
-  background-color: #02c0ce;
+  background-color: #fff5f9;
 }
 
 #topnav .navbar-toggle {
@@ -241,7 +189,7 @@ File: Main Css File
 
 #topnav .navigation-menu > li > a {
   display: block;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0);
   font-weight: 500;
   font-size: 16px;
   -webkit-transition: all .5s ease;
@@ -252,15 +200,15 @@ File: Main Css File
 }
 
 #topnav .navigation-menu > li > a:hover {
-  color: #ffffff;
+  color: #f9508c;
 }
 
 #topnav .navigation-menu > li > a:focus {
-  color: #ffffff;
+  color: #f9508c;
 }
 
 #topnav .navigation-menu > li > a:active {
-  color: #ffffff;
+  color: #f9508c;
 }
 
 #topnav .navigation-menu > li > a i {
@@ -296,10 +244,10 @@ File: Main Css File
     margin-right: 10px;
   }
   #topnav .navigation-menu > li:hover a {
-    color: #ffffff;
+    color: #f9508c;
   }
   #topnav .navigation-menu > li:hover a i {
-    color: #ffffff;
+    color: #f9508c;
   }
   #topnav .navigation-menu > li > ul > li.has-submenu:active > a,
   #topnav .navigation-menu > li > ul > li.has-submenu:hover > a {
@@ -713,7 +661,7 @@ body {
   padding-bottom: 60px;
   overflow-x: hidden;
   font-size: 14px;
-  background-color: #f3f6f8;
+  background-color: #fafafa;
   font-family: "Roboto", sans-serif;
 }
 
@@ -1561,25 +1509,25 @@ code {
 }
 
 .btn-custom {
-  background-color: #02c0ce;
-  border-color: #02c0ce;
+  background-color: #f9508c;
+  border-color: #f9508c;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active,
 .btn-custom.focus, .btn-custom:active, .btn-custom:focus, .btn-custom:hover,
 .open > .dropdown-toggle.btn-custom {
-  background-color: #02a8b5;
-  border: 1px solid #02a8b5;
+  background-color: #f9508c;
+  border: 1px solid #f9508c;
 }
 
 .btn-custom.focus, .btn-custom:focus, .btn-outline-custom.focus, .btn-outline-custom:focus,
 .btn-custom:not([disabled]):not(.disabled).active, .btn-custom:not([disabled]):not(.disabled):active, .show > .btn-custom.dropdown-toggle {
-  box-shadow: 0 0 0 2px rgba(2, 192, 206, 0.5);
+  box-shadow: 0 0 0 2px rgba(249, 80, 140, 0.5);
 }
 
 .btn-primary {
-  background-color: #2d7bf4;
-  border: 1px solid #2d7bf4;
+  background-color: #f9508c;
+  border: 1px solid #f9508c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
