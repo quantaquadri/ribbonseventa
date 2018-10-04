@@ -1449,7 +1449,9 @@ code {
   border-radius: 3px;
   margin-bottom: 30px;
   background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
+
 
 /* Card */
 .card {
@@ -6146,3 +6148,5 @@ p:last-child {
 .todo-pending {
   color: #e03232;
 }
+
+
