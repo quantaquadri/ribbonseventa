@@ -5980,8 +5980,8 @@ File: Responsive
     width: 70px !important;
   }
   .page-title {
-    font-size: 15px;
-    max-width: 250px;
+    font-size: 18px;
+    /* max-width: 250px; */
     white-space: nowrap;
   }
   .editable-responsive {
