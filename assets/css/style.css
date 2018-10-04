@@ -1,6 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900");
 /* ===========
    Menu
  =============*/
@@ -662,7 +661,7 @@ body {
   overflow-x: hidden;
   font-size: 14px;
   background-color: #fafafa;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html {
@@ -671,7 +670,7 @@ html {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 10px 0;
 }
 
@@ -1189,7 +1188,7 @@ code {
 
 /* Badge */
 .badge {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
   padding: .35em .5em;
   font-weight: 500;
@@ -1873,7 +1872,7 @@ code {
   padding: 5px 12px 5px 12px;
   margin-left: -30px;
   margin-bottom: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -moz-box-shadow: 2px 5px 10px rgba(49, 58, 70, 0.15);
   -webkit-box-shadow: 2px 5px 10px rgba(49, 58, 70, 0.15);
   -o-box-shadow: 2px 5px 10px rgba(49, 58, 70, 0.15);
@@ -1984,7 +1983,7 @@ code {
 .ribbon-box .ribbon-two span {
   font-size: 13px;
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   line-height: 20px;
   transform: rotate(-45deg);
@@ -2163,7 +2162,7 @@ code {
 
 /* Tooltips */
 .tooltip {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tooltip .tooltip-inner {
@@ -2637,14 +2636,14 @@ code {
 
 .jq-toast-single {
   padding: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #02c0ce;
   font-size: 13px;
   line-height: 22px;
 }
 
 .jq-toast-single h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .jq-toast-single a {
@@ -2980,7 +2979,7 @@ code {
 
 .nav-tabs > li > a, .nav-pills > li > a {
   color: #98a6ad;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
@@ -3005,7 +3004,7 @@ code {
 .tabs-vertical-env .nav.tabs-vertical li > a {
   color: #98a6ad;
   white-space: nowrap;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tabs-vertical-env .nav.tabs-vertical li > a.active {
@@ -3158,7 +3157,7 @@ code {
 /* Sweet Alert */
 /* =========== */
 .swal2-modal {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
 }
 
@@ -3250,7 +3249,7 @@ code {
 
 .legend tr {
   height: 30px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .legendLabel {
@@ -3565,7 +3564,7 @@ code {
 }
 
 .mail-list a {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   vertical-align: middle;
   color: #797979;
   padding: 10px 15px;
@@ -3608,7 +3607,7 @@ code {
 label {
   font-size: 14px;
   color: #313a46;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
 }
 
@@ -4299,7 +4298,7 @@ input[type="color"] {
 }
 
 th {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
 }
 
@@ -4385,7 +4384,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before
 }
 
 table.dataTable > tbody > tr.child span.dtr-title {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Responsive Table */
@@ -4528,7 +4527,7 @@ table.dataTable > tbody > tr.child span.dtr-title {
 .tablesaw thead tr:first-child th {
   border: none;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tablesaw td {
@@ -4707,7 +4706,7 @@ table.dataTable > tbody > tr.child span.dtr-title {
   border: none;
   background: #313a46;
   color: white;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   padding: 5px 8px;
 }
@@ -4727,7 +4726,7 @@ table.dataTable > tbody > tr.child span.dtr-title {
   max-width: 200px;
   display: none;
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .mapael .zoomIn, .mapael .zoomOut, .mapael .zoomReset {
@@ -4780,13 +4779,13 @@ table.dataTable > tbody > tr.child span.dtr-title {
 
 .fc-toolbar h2 {
   font-size: 20px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .fc-day-grid-event .fc-time {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .fc-day {
@@ -4869,12 +4868,12 @@ table.dataTable > tbody > tr.child span.dtr-title {
 
 .fc-basic-view td.fc-week-number span {
   padding-right: 8px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .fc-basic-view td.fc-day-number {
   padding-right: 8px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .fc-basic-view .fc-content {
@@ -5659,7 +5658,7 @@ h3.timeline-title {
   padding: 5px 10px;
   display: inline-block;
   margin-bottom: 5px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .portfolioFilter a:hover {
@@ -5783,7 +5782,7 @@ h3.timeline-title {
   margin-top: 20px;
   font-size: 26px;
   line-height: 42px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   height: 42px;
   display: inline-block;
@@ -6005,4 +6004,145 @@ File: Responsive
     margin-left: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+
+/* Checklist */
+
+.st-accordion {
+}
+
+.panel-group {
+  margin-bottom: 20px;
+}
+
+.st-accordion .panel-group .panel {
+  border-radius: 0px;
+}
+
+.st-accordion .panel-default {
+  border-color: #e9e6e0;
+}
+
+.st-accordion .panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e9e6e0;
+}
+
+.st-accordion .panel-heading {
+  padding: 20px;
+  border-bottom: 0px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.st-accordion .panel-title {
+  position: relative;
+}
+
+.st-accordion .sign {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.todo-list-group {
+  border-top: 1px solid #f0efea;
+}
+
+ul.listnone {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-list-item {
+  border-bottom: 1px solid #f0efea;
+  padding: 20px;
+}
+
+.todo-checkmark {
+  text-align: center;
+}
+
+.todo-title {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #3c3837;
+}
+
+.title {
+  color: #f9508c;
+}
+
+.todo-date {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #b1b0ab;
+}
+
+.todo-action {
+  text-align: right;
+}
+
+a:hover {
+  color: #f9508c;
+  /* text-decoration: undserline; */
+}
+
+
+
+.btn-circle {
+  background-color: #faf9f5;
+  width: 40px;
+  display: inline-block;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 6px;
+  border: 1px solid #e8e7e3;
+  color: #898381;
+  margin-right: 10px;
+}
+
+.todo-notes {
+  background-color: #faf9f5;
+  margin-top: 30px;
+}
+
+.pinside30 {
+  padding: 30px;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 5px;
+}
+
+.widget-todo {
+  text-align: center;
+}
+
+.todo-percentage {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.todo-value {
+  font-weight: 600;
+}
+
+.todo-done {
+  color: #88c82d;
+  padding-right: 20px;
+}
+
+
+.todo-pending {
+  color: #e03232;
+}
