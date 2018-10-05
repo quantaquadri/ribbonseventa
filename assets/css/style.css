@@ -105,7 +105,7 @@
 }
 
 #topnav .navbar-custom {
-  background-color: #fff5f9;
+  background-color: #fff;
 }
 
 #topnav .navbar-toggle {
@@ -685,7 +685,7 @@ h2 {
 }
 
 h3 {
-  line-height: 30px;
+  /* line-height: 30px; */
   font-size: 24px;
 }
 
@@ -6082,6 +6082,12 @@ ul.listnone {
   text-transform: uppercase;
   font-weight: 400;
   color: #b1b0ab;
+}
+
+.todo-list {
+}
+
+.todo-task {
 }
 
 .todo-action {
