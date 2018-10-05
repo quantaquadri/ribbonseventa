@@ -238,7 +238,7 @@
                     <div class="col-sm-12">
            
                         <div class="page-title-box">
-                            <h4 class="page-title" style="text-align: center;">It's Here</h4>
+                            <h4 class="page-title" style="text-align: center;">Your Budget Breakdown Is Here</h4>
                         </div>
            
                     </div>
@@ -256,10 +256,6 @@
                         
                         <div class="card-box">
 
-                            <h2 style="color: #f9508c;"> Budget Breakdown:</h2>
-
-                            <br>
-
                             <div class="table-responsive table-bordered" data-pattern="priority-columns">
 
                                 <table class="table">
@@ -268,69 +264,74 @@
                                         
                                         <tr class="table-danger">
                                             <th>Budget Category</th>
-                                            <th>Ribbons' Recommended Cost (&#8358;)</th>
-                                            <th>Your Actual Spend (&#8358;)</th>
+                                            <th>Amount (&#8358;)</th>
                                             <th>Vendors' Suggestions</th>
                                         </tr>
 
                                     </thead>
                                     
                                     <tbody>
+
+
+                                       
                                     
                                         <tr>    
                                             <td>Photographer</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Studio 44</a>  </td>
+                                            <td> <button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm">View</button> </td>
                                         </tr>
+
+
+                                        
 
                                         <tr>    
                                             <td>Decor</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Somto Claud</a></td>
+                                            <td> <button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-decor">View</button> </td>
                                         </tr>
+
+
 
                                         <tr>    
                                             <td>Caterer</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Toyin's Kitchen</a></td>
+                                            <td><button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-caterer">View</button></td>
                                         </tr>
+
+
+                                        
 
                                         <tr>    
                                             <td>Wedding Rings</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Angelikas</a></td>
+                                            <td> <button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-rings">View</button> </td>
                                         </tr>
+
+
+                                       
 
                                         <tr>    
                                             <td>Atire</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Asoebi Bella</a></td>
+                                            <td><button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-asoebi">View</button></td>
                                         </tr>
 
                                         <tr>    
                                             <td>Enterntainment/DJ</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">DJ Spinall</a></td>
+                                            <td><button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-enterntainment">View</button></td>
                                         </tr>
 
                                         <tr>    
                                             <td>Flowers</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Flowershop</a></td>
+                                            <td><button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-flowers">View</button></td>
                                         </tr>
 
                                         <tr>    
                                             <td>Souvenirs</td>
-                                            <td>N/A</td>
                                             <td>0</td>
-                                            <td><a href="" style="color: #f9508c;">Gift Shop</a></td>
+                                            <td><button type="button" class="btn btn-custom waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-sm-giftshop">View</button></td>
                                         </tr>
                                     
                                     </tbody>
@@ -345,7 +346,7 @@
                                 Go Back To Home
                             </a>
 
-                            <a class="btn btn-lg btn-custom waves-effect waves-light" href="budgetresults.html">
+                            <a class="btn btn-lg btn-custom waves-effect waves-light" href="dashboard.html">
                                 Do More With This Tool
                             </a>
                         
@@ -379,6 +380,145 @@
             </div>
         </footer>
         <!-- End Footer -->
+
+        <!-- MODALS SECTIOn -->
+
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Photographers</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Studio 24</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal fade bs-example-modal-sm-decor" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Decor</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Somto Claud</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div class="modal fade bs-example-modal-sm-caterer" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Caterer</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Toyin's Kitchen</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+
+        <div class="modal fade bs-example-modal-sm-rings" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Wedding Rings</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Angelikas</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        
+        <div class="modal fade bs-example-modal-sm-caterer" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Caterer</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Toyin's Kitchen</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal fade bs-example-modal-sm-asoebi" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">AsoEbi </h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">AsoEbi</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal fade bs-example-modal-sm-enterntainment" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Enterntainment / DJ</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">DJ Spinnal</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal fade bs-example-modal-sm-flowers" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">FLowers</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Flowershop</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal fade bs-example-modal-sm-giftshop" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="mySmallModalLabel">Souvenirs</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <a href="" style="color: #f9508c;">Giftshop</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 
         <!-- jQuery  -->
