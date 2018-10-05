@@ -6149,4 +6149,17 @@ p:last-child {
   color: #e03232;
 }
 
+.mt40 {
+  margin-top: 40px;
+}
 
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.title-number {
+  color: #f9508c;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
